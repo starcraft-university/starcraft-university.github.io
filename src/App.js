@@ -1,25 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {Chrono} from "react-chrono";
+import {calmItems} from './data/calm/calm-data' ;
+import HeaderImage from './asset/calm-headline.png';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    const theme ={
+        primary: 'LightPink',
+        secondary: 'white',
+        cardForeColor: 'pink',
+        titleColor: 'gray',
+        titleColorActive: 'pink',
+    }
+    return (
+        <>
+     <header>
+         <img src={HeaderImage} width={"100%"}/>
+     </header>
+        <Chrono
+            items={calmItems}
+            theme={theme}
+            enableOutline
+            mode="VERTICAL"
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        {calmItems.map(
+            item => {
+                    if ('custom' in item) {
+                        return <div>
+                            {item.custom.html}
+                        </div>
+                    } else {
+                        <div></div>
+                    }
+
+            })
+
+
+        }
+        </Chrono>
+        </>
+    );
 }
 
 export default App;
