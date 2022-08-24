@@ -28,12 +28,10 @@ function App() {
                             {item.custom.html}
                         </div>
                     } else {
-                        <div></div>
+                        <div/>
                     }
 
             })
-
-
         }
         </Chrono>
         </>
