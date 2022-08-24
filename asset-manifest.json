@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/starcraft-university-timeline/static/css/main.073c9b0a.css",
-    "main.js": "/starcraft-university-timeline/static/js/main.204b9fce.js",
-    "static/js/787.cd7d7d7f.chunk.js": "/starcraft-university-timeline/static/js/787.cd7d7d7f.chunk.js",
+    "main.js": "/starcraft-university-timeline/static/js/main.5d2754d5.js",
+    "static/js/787.31787ca6.chunk.js": "/starcraft-university-timeline/static/js/787.31787ca6.chunk.js",
     "static/media/calm-headline.png": "/starcraft-university-timeline/static/media/calm-headline.b79e951fb365571a236c.png",
     "index.html": "/starcraft-university-timeline/index.html",
     "main.073c9b0a.css.map": "/starcraft-university-timeline/static/css/main.073c9b0a.css.map",
-    "main.204b9fce.js.map": "/starcraft-university-timeline/static/js/main.204b9fce.js.map",
-    "787.cd7d7d7f.chunk.js.map": "/starcraft-university-timeline/static/js/787.cd7d7d7f.chunk.js.map"
+    "main.5d2754d5.js.map": "/starcraft-university-timeline/static/js/main.5d2754d5.js.map",
+    "787.31787ca6.chunk.js.map": "/starcraft-university-timeline/static/js/787.31787ca6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.204b9fce.js"
+    "static/js/main.5d2754d5.js"
   ]
 }
