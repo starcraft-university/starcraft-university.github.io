@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/starcraft-university-timeline/static/css/main.073c9b0a.css",
+    "main.js": "/starcraft-university-timeline/static/js/main.204b9fce.js",
+    "static/js/787.cd7d7d7f.chunk.js": "/starcraft-university-timeline/static/js/787.cd7d7d7f.chunk.js",
+    "static/media/calm-headline.png": "/starcraft-university-timeline/static/media/calm-headline.b79e951fb365571a236c.png",
+    "index.html": "/starcraft-university-timeline/index.html",
+    "main.073c9b0a.css.map": "/starcraft-university-timeline/static/css/main.073c9b0a.css.map",
+    "main.204b9fce.js.map": "/starcraft-university-timeline/static/js/main.204b9fce.js.map",
+    "787.cd7d7d7f.chunk.js.map": "/starcraft-university-timeline/static/js/787.cd7d7d7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.204b9fce.js"
+  ]
+}
